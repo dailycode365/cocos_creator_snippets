@@ -1,0 +1,24 @@
+{
+  "name": "snippets",
+  "version": "0.0.1",
+  "displayName": "Cocos Creator Snippets ",
+  "description": "cocos creator snippets",
+  "publisher": "zpf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zpf",
+  "license": "MIT",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "categories": [
+    "Snippets"
+  ]
+}
