@@ -2,7 +2,7 @@
   "my editor log": {
     "prefix": "elog",
     "body": ["Editor.log(`$1: ${$1}`);"],
-    "description": "快捷创建creator编辑器中的log"
+    "description": "创建creator编辑器中的log"
   },
 
   "my property": {
@@ -15,7 +15,7 @@
       "})",
       "$3: $1 = $4;"
     ],
-    "description": "快捷创建creator支持的属性"
+    "description": "创建creator支持的属性"
   },
 
   "my property enum": {
@@ -28,7 +28,7 @@
       "})",
       "$2: $1 = $1.$3;"
     ],
-    "description": "快捷创建creator property支持的enum属性"
+    "description": "创建creator property支持的enum属性"
   },
 
   "my array": {
@@ -41,7 +41,7 @@
       "})",
       "$3: $1[] = [];"
     ],
-    "description": "快捷创建数组"
+    "description": "创建数组"
   },
 
   "my integer": {
@@ -54,7 +54,7 @@
       "})",
       "$3: number = $4;"
     ],
-    "description": "快捷创建整数"
+    "description": "创建整数"
   },
 
   "my sprite": {
@@ -67,7 +67,7 @@
       "})",
       "$1: cc.Sprite = null;"
     ],
-    "description": "快捷创建精灵"
+    "description": "创建精灵"
   },
 
   "my node": {
@@ -80,7 +80,7 @@
       "})",
       "$1: cc.Node = null;"
     ],
-    "description": "快捷创建节点"
+    "description": "创建节点"
   },
 
   "my label": {
@@ -93,7 +93,7 @@
       "})",
       "$1: cc.Label = null;"
     ],
-    "description": "快捷创建Label"
+    "description": "创建Label"
   },
 
   "my button": {
@@ -106,7 +106,7 @@
       "})",
       "$1: cc.Button = null;"
     ],
-    "description": "快捷创建Button"
+    "description": "创建Button"
   },
 
   "my component eventhandler": {
@@ -119,7 +119,7 @@
       "})",
       "$1: cc.Component.EventHandler = null;"
     ],
-    "description": "快捷创建组件的EventHandler"
+    "description": "创建组件的EventHandler"
   },
 
   "my component eventhandler arr": {
@@ -132,7 +132,7 @@
       "})",
       "$1: cc.Component.EventHandler[] = [];"
     ],
-    "description": "快捷创建组件的EventHandler数组"
+    "description": "创建组件的EventHandler数组"
   },
 
   "on touch Listener": {
@@ -142,7 +142,8 @@
       "$1.on(cc.Node.EventType.TOUCH_MOVE, this.$3, this);",
       "$1.on(cc.Node.EventType.TOUCH_END, this.$4, this);",
       "$1.on(cc.Node.EventType.TOUCH_CANCEL, this.$5, this);"
-    ]
+    ],
+    "description": "注册节点的触摸监听"
   },
   "off touch Listener": {
     "prefix": "mytouchlisteneroff",
@@ -151,7 +152,8 @@
       "$1.off(cc.Node.EventType.TOUCH_MOVE, this.$3, this);",
       "$1.off(cc.Node.EventType.TOUCH_END, this.$4, this);",
       "$1.off(cc.Node.EventType.TOUCH_CANCEL, this.$5, this);"
-    ]
+    ],
+    "description": "取消节点的触摸监听"
   },
   "get set property": {
     "prefix": "mygetset",
@@ -172,7 +174,7 @@
       "    this.$1 = value;",
       "  }"
     ],
-    "description": ""
+    "description": "创建属性的get、set方法"
   },
   "cocos creator sound": {
     "prefix": "myclip",
@@ -184,7 +186,7 @@
       "    })",
       "    $3: cc.AudioClip = null;"
     ],
-    "description": "cocos creator sound"
+    "description": "创建AudioClip"
   },
   "StateInstance": {
     "prefix": "mystateinstance",
@@ -223,7 +225,7 @@
       "}",
       ""
     ],
-    "description": "StateInstance"
+    "description": "创建继承StateInstance的类"
   },
   "mytest": {
     "prefix": "mytest",
